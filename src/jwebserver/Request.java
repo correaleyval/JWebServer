@@ -33,4 +33,8 @@ public class Request {
            
         url = parse.nextToken().toLowerCase();
     }
+    
+    public void close() throws IOException {
+        in.close();
+    }
 }

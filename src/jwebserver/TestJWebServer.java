@@ -15,6 +15,7 @@ public class TestJWebServer {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         JWebServer server = new JWebServer();
